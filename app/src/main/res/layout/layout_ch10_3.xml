@@ -3,60 +3,60 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent">
-    <EditText
-        android:layout_width="match_parent"
-        android:id="@+id/et"
+    <Button
+        android:layout_width="wrap_content"
+        android:text="播放"
+        android:id="@+id/start"
+        android:onClick="start"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
-        android:text="send_broadcast"
-        android:onClick="send_broadcast"
+        android:text="停止"
+        android:id="@+id/stop"
+        android:onClick="stop"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
-        android:text="Ch10Activity1"
-        android:onClick="ch10Activity1"
+        android:text="暂停"
+        android:onClick="pause"
+        android:id="@+id/pause"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
-        android:text="start_sub_activity"
-        android:onClick="startSubactivity"
+        android:text="暂停服务"
+        android:onClick="stopservice"
+        android:id="@+id/stopservice"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
-        android:text="web"
-        android:onClick="web"
+        android:text="绑定"
+        android:id="@+id/ch12_2_bind"
+        android:onClick="bindClick"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
-        android:text="contactsList"
-        android:onClick="contactsList"
+        android:text="BIND播放"
+        android:id="@+id/ch12_2_bindstart"
+        android:onClick="bindClick"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
-        android:text="contactsDetail"
-        android:onClick="contactsDetail"
+        android:text="BIND暂停"
+        android:id="@+id/ch12_2_bindpause"
+        android:onClick="bindClick"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
-        android:text="showMap"
-        android:onClick="showMap"
+        android:text="BIND停止"
+        android:id="@+id/ch12_2_bindstop"
+        android:onClick="bindClick"
         android:layout_height="wrap_content" />
     <Button
         android:layout_width="wrap_content"
-        android:text="showPhoto"
-        android:onClick="showPhoto"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_width="wrap_content"
-        android:text="pickContact"
-        android:onClick="pickContact"
+        android:text="解绑"
+        android:id="@+id/ch12_2_unbind"
+        android:onClick="bindClick"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:text="implictStart"
-        android:onClick="implictStart"
-        android:layout_height="wrap_content" />
 
 </LinearLayout>
